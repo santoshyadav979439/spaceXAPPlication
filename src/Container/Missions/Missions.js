@@ -47,7 +47,7 @@ class Missions extends PureComponent {
         )
         .catch(err=>{
             this.setState({loading:false});
-            console.log(err);
+           
         })
     }
     yearClickHandler=(e,year)=>{
