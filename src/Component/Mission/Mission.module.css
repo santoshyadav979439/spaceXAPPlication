@@ -17,7 +17,7 @@ img{
         box-shadow: 0 2px 3px #ccc;
         margin: 10px;
         box-sizing: border-box;
-        cursor: pointer;
+       
     }
 }
 @media only screen and (min-width:700px) and (max-width:1024px){
@@ -29,7 +29,7 @@ img{
         box-shadow: 0 2px 3px #ccc;
         margin: 10px;
         box-sizing: border-box;
-        cursor: pointer;
+       
     }
 }
 @media (min-width:1024px) { 
@@ -41,6 +41,6 @@ img{
         box-shadow: 0 2px 3px #ccc;
         margin: 10px;
         box-sizing: border-box;
-        cursor: pointer;
+       
     }
  }
