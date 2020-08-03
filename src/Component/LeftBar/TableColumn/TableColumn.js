@@ -1,14 +1,11 @@
-import React from 'react';
-import classes from './TableColumn.module.css'
+import React from "react";
+import classes from "./TableColumn.module.css";
 const TableColumn = (props) => {
-   
-    return (
-        <td onClick={props.yearClick}
-        style={{background:props.color}}
-        >
-            {props.year}
-        </td>
-    );
+  return props.year ? (
+    <td onClick={props.yearClick} style={{ background: props.color }}>
+      {props.year}
+    </td>
+  ) : null;
 };
 
 export default TableColumn;

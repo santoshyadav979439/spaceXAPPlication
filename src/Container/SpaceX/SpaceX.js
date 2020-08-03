@@ -1,14 +1,9 @@
-import React, { Component } from 'react';
-import Missions from '../Missions/Missions'
+import React, { Component } from "react";
+import Missions from "../Missions/Missions";
 class SpaceX extends Component {
-   
-    render() {
-        return (
-            <div>
-                <Missions />
-            </div>
-        );
-    }
+  render() {
+    return <Missions />;
+  }
 }
 
 export default SpaceX;
