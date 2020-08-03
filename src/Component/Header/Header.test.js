@@ -6,6 +6,6 @@ configure({adapter: new Adapter()})
 describe('<Mission />',()=>{
     it('should render correctly with no props',()=>{
        const component= shallow(<Header />);
-       expect(component).toMatchSnapshot();
+       expect(component.find('div').text()).toEqual('SpaceX Launch Programs')
     })
 })
