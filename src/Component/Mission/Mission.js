@@ -10,15 +10,15 @@ const Mission = (props) => {
    launchSuccess="true";
    if(launchSucc===false)
    launchSuccess="false";
-   console.log(props)
+  
    const land_success =props.land_success;
-   console.log(land_success);
+ 
    let landSuccess="Not Available";
    if(land_success===true)
    landSuccess="true";
    if(land_success===false)
    landSuccess="false";
-    console.log(props)
+   
     return (
         <div className={classes.Mission}>
             <div className={classes.MissionLogo}><img src={props.mission_patch} alt="logo"></img></div>
