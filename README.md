@@ -5,6 +5,7 @@ To run the application npm and node.js should be installed.
 ### Used Tools and Libraries
 1) create-react-app (React.js)
 2) axios (For Api calls)
+3) flex box and media queries for responsiveness
 ### Testing tools
 1) enzyme
 2) enzyme-adapter-react-16
