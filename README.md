@@ -1,5 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-## prerequisite
+## Prerequisite
 To run the application npm and node.js should be installed.
 
 ### Used Tools and Libraries
